@@ -2,12 +2,22 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-
 // Dichiara la funzione qui.
+function isFirstLetter (array){
+    let result = [];
+    for(let i = 0; i <array.length; i++){
+        
+        const listnames = array[i];
+        const firstLetter = listnames[0];
+        result.push(firstLetter)
+    }
+    console.log(result)
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+isFirstLetter(names)
+console.log(isFirstLetter(names))
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
