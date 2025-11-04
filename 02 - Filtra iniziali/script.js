@@ -23,5 +23,5 @@ function searchingLetter (array, lettera){
 // Invoca la funzione qui e stampa il risultato in console
 searchingLetter(names, "A")
 
-
+console.log(searchingLetter(names, "A"))
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]

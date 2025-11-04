@@ -9,9 +9,24 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+//return: stringa   hh: mm: ss 
+function eUnSalutoEducato() {
+    const now = new Date();
+    const hours = now.getHours();
+    let saluto = ""
+    if (hours <= 13) {
+        saluto = "Buongiorno " + name
 
+    } else if (hours > 13) {
+       saluto = "Buon pomeriggio " + name
+    } else {
+        saluto = "Buona sera " + name
+    }
+    console.log(saluto)
+}
 
-// Invoca la funzione qui e stampa il risultato in console
+// Invoca la funzione e stampa il risultato in console
+console.log(eUnSalutoEducato());
 
 
 
