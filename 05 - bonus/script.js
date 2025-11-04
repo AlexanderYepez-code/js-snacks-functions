@@ -15,12 +15,12 @@ function eUnSalutoEducato() {
     const hours = now.getHours();
     let saluto = ""
     if (hours <= 13) {
-        saluto = "Buongiorno " + name
+        saluto = "🌞 Buongiorno " + name
 
     } else if (hours > 13) {
-       saluto = "Buon pomeriggio " + name
+       saluto = "🌥️ Buon pomeriggio " + name
     } else {
-        saluto = "Buona sera " + name
+        saluto = "🌝 Buona sera " + name
     }
     console.log(saluto)
 }

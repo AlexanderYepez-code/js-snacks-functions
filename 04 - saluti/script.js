@@ -4,9 +4,7 @@ const name = 'Luca';
 
 
 // Dichiara la funzione qui.
-const saluta = (name) => {
-    return "Ciao " + name;
-};
+const saluta = (name) => "Ciao " + name;
 
 
 // Invoca la funzione qui e stampa il risultato in console

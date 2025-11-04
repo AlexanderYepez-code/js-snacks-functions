@@ -7,8 +7,16 @@ const word = 'javascript';
 function cercaVocali (word){
     const vocali = ["a", "e", "i", "o", "u"];
     let risultato = 0;
-    if(word === vocali ){
-        risultato.push(risultato)
+    for (let i = 0; i < word.length; i++){
+        console.log(i)
+        const letter = word[i];
+        console.log(letter);
+        if (vocali.includes(letter)){
+            risultato++
+        }
+            
+
+
     }
 console.log(risultato)
 }
